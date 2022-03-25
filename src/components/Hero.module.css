@@ -1,0 +1,19 @@
+
+.hero {
+    background-image: url('/public/assets/hero.png');
+    background-size: cover;
+    background-position: center;;
+    background-clip: border-box;
+}
+
+.w-100 {
+    height: 600px !important;
+}
+
+.card_title {
+    min-height: 50px;
+}
+
+.card_price {
+    min-height: 50px;
+}

@@ -1,11 +1,12 @@
 import './App.css';
+import Header from './components/Header';
+import Hero from './components/Hero';
 
 function App() {
   return (
-    <div className="App">
-          <h1 className="text-3xl font-bold underline border-sky-400 hover:bg-sky-700 ">
-            Hello world!
-          </h1>
+    <div>
+          <Header />
+          <Hero />
     </div>
   );
 }
